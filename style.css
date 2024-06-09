@@ -1,0 +1,31 @@
+#why {
+  background: url('./assets/why.png') 100% 100% no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+}
+#impact {
+  background: url(./assets/impactbg.jpg) 100% 100% no-repeat;
+  background-size: 100% 100%;
+}
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #feba3d #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #feba3d;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}

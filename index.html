@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edu Connect</title>
+    <link rel="stylesheet" href="style.css" />
+      <link rel="icon" type="image/x-icon" href="./assets/logo.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section class="bg-[#DDD6D2] min-h-screen">
+      <header class="flex items-center justify-around py-5">
+        <img src="./assets/logo.png" alt="" class="w-32" />
+        <ul class="flex items-center gap-5">
+          <li class="hover:bg-white px-5 py-1 rounded-md">
+            <a href="#" class="font-semibold">Home</a>
+          </li>
+          <li class="hover:bg-white px-5 py-1 rounded-md">
+            <a href="#" class="font-semibold">Overview</a>
+          </li>
+          <li class="hover:bg-white px-5 py-1 rounded-md">
+            <a href="#impact" class="font-semibold">Feedback</a>
+          </li>
+          <li class="hover:bg-white px-5 py-1 rounded-md">
+            <a href="#signup" class="font-semibold">Sign up</a>
+          </li>
+        </ul>
+      </header>
+      <article
+        class="flex items-center justify-between gap-12 p-5 md:px-[10%] md:gap-[10%]"
+      >
+        <div class="flex-1 flex flex-col items-start gap-10">
+          <h3 class="text-4xl lg:text-5xl max-w-[300px] font-bold">
+            Grow Your Knowledge With Us ->
+          </h3>
+          <p class="truncate text-[#444]">
+            Educate a mind, and you shape a future
+          </p>
+          <button
+            class="bg-[#F6AB31] px-5 py-2 rounded-md hover:opacity-80 w-full"
+          >
+            sign up
+          </button>
+        </div>
+        <div class="flex-1">
+          <img
+            class="rounded-full w-[90%] max-h-[3x00px]"
+            src="./assets/landingimg.jpg"
+            alt=""
+          />
+          <form
+            action=""
+            class="mt-5 flex flex-col items-center justify-center gap-3"
+          >
+            <h4 class="font-bold">Login to your E-Learning Account</h4>
+            <input
+              placeholder="Username"
+              class="rounded-md w-full"
+              type="text"
+            />
+            <input
+              placeholder="Password"
+              class="rounded-md w-full"
+              type="text"
+            />
+            <button
+              class="bg-[#F6AB31] px-5 py-2 rounded-md hover:opacity-80 w-full"
+              type="submit"
+            >
+              Login
+            </button>
+            <p class="self-start text-[#F6AB31]">Forgot password ?</p>
+          </form>
+        </div>
+      </article>
+    </section>
+
+    <section id="why"></section>
+
+    <section class="min-w-full min-h-screen bg-[#DDD6D2] flex p-10 gap-5 pt-56">
+      <div class="flex-1 flex flex-wrap items-center justify-center">
+        <div class="card  w-[40%] flex flex-col items-center ">
+            <img  class="w-[65%]" src="./assets/location.png" alt="">
+            <h4 class="font-bold text-[#E4ADAB] text-3xl">+700</h4>
+            <h4 class="font-bold text-xl">Schools</h5>
+        </div>
+        <div class="card  w-[40%]  flex flex-col items-center">
+            <img  class="w-[65%]" src="./assets/student.png" alt="">
+            <h4 class="font-bold text-[#E4ADAB] text-3xl">+10000</h5>
+            <h4 class="font-bold text-xl">Student</h5>
+        </div>
+        <div   class="card  w-[40%] flex flex-col items-center">
+            <img class="w-[65%]" src="./assets/teacher.png" alt="">
+            <h4 class="font-bold text-[#E4ADAB] text-3xl">+7000</h5>
+            <h4 class="font-bold text-xl">Teachers</h5>
+        </div>
+      </div> 
+      <div class="flex-1 flex justify-center items-center">
+        <form class="flex flex-col gap-5" action=""id="signup">
+          <input placeholder="First Name" type="text" class="border-none" />
+          <input placeholder="Last Name" type="text" class="border-none" />
+          <input placeholder="Email" type="email" class="border-none" />
+          <input placeholder="Number" type="tel" class="border-none" />
+          <label for="bd">Birth Date</label>
+          <input
+            name="bd"
+            id="bd"
+            placeholder="Birth Date"
+            type="date"
+            class="border-none"
+          />
+          <button
+            class="bg-[#F6AB31] px-5 py-2 rounded-md hover:opacity-80 w-full"
+          >
+            Create
+          </button>
+          <p>
+            By clicking Create Account’ you agree to our terms and privacy
+            policy
+          </p>
+        </form>
+      </div>
+    </section>
+
+
+
+
+
+    <section class="relative min-h-screen   w-full" id="impact">
+                <h2 class='text-center font-bold text-5xl'>Impact</h2>
+
+        <div class="cards absolute h-[100%]  w-full top-0 left-0  bg-[#ffffff8a] p-5 mx-auto w-[100vw] flex items-center	 gap-10    overflow-x-scroll">
+        <div class="card border rounded-md flex flex-col items-center bg-white shadow-md gap-5 w-[30%] min-w-[300px] p-5">
+            <img src="./assets/radouna.jpg" class="w-[35%] rounded-full aspect-square	 " alt="">
+            <h3 class="text-[#4da843] font-bold text-xl">Roudayna BH</h3>
+            <h6 class="font-semibold w-[50%] text-center">Grade 10 Student ImsgF-7/2,Tafela</h6>
+            <p class="text-center text-[#444]"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sit accusamus debitis blanditiis distinctio laudantium, reprehenderit officia in tempora iure facilis consequuntur pariatur quisquam ratione sequi harum quos veritatis inventore reiciendis dolorem sint repellendus amet! Eaque, quaerat aliquam laborum et placeat provident eius obcaecati, non incidunt blanditiis quis aspernatur nobis.</p>
+        </div>
+        <div class="card border rounded-md flex flex-col items-center bg-white shadow-md gap-5 w-[30%] min-w-[300px] p-5">
+            <img src="./assets/bo3.jpg" class="w-[35%] rounded-full aspect-square	 " alt="">
+            <h3 class="text-[#4da843] font-bold text-xl">Omar bou3sida</h3>
+            <h6 class="font-semibold w-[50%] text-center">Grade 1000 Student isitcom,Msakni</h6>
+            <p class="text-center text-[#444]"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sit accusamus debitis blanditiis distinctio laudantium, reprehenderit officia in tempora iure facilis consequuntur pariatur quisquam ratione sequi harum quos veritatis inventore reiciendis dolorem sint repellendus amet! Eaque, quaerat aliquam laborum et placeat provident eius obcaecati, non incidunt blanditiis quis aspernatur nobis.</p>
+        </div>
+        <div class="card border rounded-md flex flex-col items-center bg-white shadow-md gap-5 w-[30%] min-w-[300px] p-5">
+            <img src="./assets/naw.jpg" class="w-[35%] rounded-full aspect-square	 " alt="">
+            <h3 class="text-[#4da843] font-bold text-xl">Abes Nawres</h3>
+            <h6 class="font-semibold w-[50%] text-center">Grade 10 Student ImsgF-7/2,Swis</h6>
+            <p class="text-center text-[#444]"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sit accusamus debitis blanditiis distinctio laudantium, reprehenderit officia in tempora iure facilis consequuntur pariatur quisquam ratione sequi harum quos veritatis inventore reiciendis dolorem sint repellendus amet! Eaque, quaerat aliquam laborum et placeat provident eius obcaecati, non incidunt blanditiis quis aspernatur nobis.</p>
+        </div>
+        <div class="card border rounded-md flex flex-col items-center bg-white shadow-md gap-5 w-[30%] min-w-[300px] p-5">
+            <img src="./assets/hedi.jpg" class="w-[35%] rounded-full aspect-square	 " alt="">
+            <h3 class="text-[#4da843] font-bold text-xl">Rziga Gadour</h3>
+            <h6 class="font-semibold w-[50%] text-center">Grade 10 Student FGH-7/2,Hamemmi</h6>
+            <p class="text-center text-[#444]"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sit accusamus debitis blanditiis distinctio laudantium, reprehenderit officia in tempora iure facilis consequuntur pariatur quisquam ratione sequi harum quos veritatis inventore reiciendis dolorem sint repellendus amet! Eaque, quaerat aliquam laborum et placeat provident eius obcaecati, non incidunt blanditiis quis aspernatur nobis.</p>
+        </div>
+        
+        <div class="card border rounded-md flex flex-col items-center bg-white shadow-md gap-5 w-[30%] min-w-[300px] p-5">
+            <img src="./assets/kll.jpg" class="w-[35%] rounded-full aspect-square	 " alt="">
+            <h3 class="text-[#4da843] font-bold text-xl">Med  Kaloula</h3>
+            <h6 class="font-semibold w-[50%] text-center">Grade 10 Student HSI-7/2,Kal3i</h6>
+            <p class="text-center text-[#444]"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sit accusamus debitis blanditiis distinctio laudantium, reprehenderit officia in tempora iure facilis consequuntur pariatur quisquam ratione sequi harum quos veritatis inventore reiciendis dolorem sint repellendus amet! Eaque, quaerat aliquam laborum et placeat provident eius obcaecati, non incidunt blanditiis quis aspernatur nobis.</p>
+        </div>
+        <div class="card border rounded-md flex flex-col items-center bg-white shadow-md gap-5 w-[30%] min-w-[300px] p-5">
+          <img src="./assets/dim.jpg" class="w-[35%] rounded-full aspect-square	 " alt="">
+          <h3 class="text-[#4da843] font-bold text-xl">Fara7 dim</h3>
+          <h6 class="font-semibold w-[50%] text-center">Grade 10 Student HSI-7/2,Ksar HLAL</h6>
+          <p class="text-center text-[#444]"
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sit accusamus debitis blanditiis distinctio laudantium, reprehenderit officia in tempora iure facilis consequuntur pariatur quisquam ratione sequi harum quos veritatis inventore reiciendis dolorem sint repellendus amet! Eaque, quaerat aliquam laborum et placeat provident eius obcaecati, non incidunt blanditiis quis aspernatur nobis.</p>
+      </div>
+      <div class="card border rounded-md flex flex-col items-center bg-white shadow-md gap-5 w-[30%] min-w-[300px] p-5">
+        <img src="./assets/tamtouma.jpg" class="w-[35%] rounded-full aspect-square	 " alt="">
+        <h3 class="text-[#4da843] font-bold text-xl">Fara7 tamtouma</h3>
+        <h6 class="font-semibold w-[50%] text-center">Grade 10 Student HSI-7/2,Ksar HLAL</h6>
+        <p class="text-center text-[#444]"
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sit accusamus debitis blanditiis distinctio laudantium, reprehenderit officia in tempora iure facilis consequuntur pariatur quisquam ratione sequi harum quos veritatis inventore reiciendis dolorem sint repellendus amet! Eaque, quaerat aliquam laborum et placeat provident eius obcaecati, non incidunt blanditiis quis aspernatur nobis.</p>
+    </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="w-full p-5">
+          BO3 & MO3 Prod <br>
+      All rights reserved©
+        
+    </footer>
+ 
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+  
+  </body>
+</html>
